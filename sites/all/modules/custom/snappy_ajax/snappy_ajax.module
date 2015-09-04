@@ -1,0 +1,29 @@
+<?php
+/**
+* Implementation of hook_menu().
+*/
+function snappy_ajax_menu() {
+  $items['get/ajax'] = array(
+    'page callback' => 'snappy_ajax_get_ajax', // Render HTML
+    'type' => MENU_CALLBACK,
+    'access arguments' => array('access content'),
+    'delivery callback' => 'snappy_ajax_callback',  // Magic goes here
+  );
+  return $items;
+}
+
+function snappy_ajax_get_ajax() {
+  // The function will receive the array of arguments after the "get/ajax" prefix
+  $path = implode('/', func_get_args());
+  $render_string = menu_execute_active_handler($path, FALSE);
+  return $render_string;
+}
+
+function snappy_ajax_callback($page_callback_result) {
+  // Only render content and validates return
+  $content = is_string($page_callback_result) ? $page_callback_result : drupal_render($page_callback_result);
+  $html = '<html><head><title></title>' . '</head><body class="jquery-ajax-load">' . $content . '</body></html>';
+  print $html;
+  drupal_page_footer();
+
+}

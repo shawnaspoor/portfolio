@@ -1,0 +1,113 @@
+.section hr{
+	border-color: #d95c5c;
+}
+
+.topnav .navbar-nav > .current > a, .topnav .navbar-nav > .current > a:hover, 
+.topnav .navbar-nav > .current > a:focus, .topnav .navbar-nav > .active-trail > a.active{
+	color: #d95c5c;
+}
+
+.promo:hover .promo-icon {
+	background-color: #d95c5c;
+}
+
+.service:hover > .fa-stack > .fa-circle {
+	color: #d95c5c;
+}
+
+#filters li a:hover, #filters li a.selected {
+	background-color: #d95c5c;
+}
+#clients-carousel {
+	background-color: #d95c5c;
+}
+.view-portfolio .isotope-element:hover .project-overlay {
+	background-color: #d95c5c;
+	opacity: 0.9;
+}
+
+#project-controls li a:hover {
+	color: #d95c5c;
+	border-color: #d95c5c;
+}
+
+.view-pricing .views-row-3 .plan {
+	background-color: #d95c5c;
+}
+
+.view-pricing .views-row-3 .plan .circle-price{
+	color: #d95c5c;
+}
+
+.view-pricing .views-row-3 .plan ul li {
+	border-color: #bd2c2c;
+}
+
+.view-pricing .views-row-3 .plan .btn {
+	color: #d95c5c;
+}
+
+.circle-price{
+	background-color: #d95c5c;
+}
+
+#clients{
+	background-color: #d95c5c;
+}
+
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active,
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+	background-color: #d95c5c;
+}
+
+.btn-custom, .contact-form button[type=submit] {
+	color: #fff;
+	background-color: #d95c5c;
+	border-color: #d95c5c;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open .dropdown-toggle.btn-custom,
+.contact-form button[type=submit]:hover, .contact-form button[type=submit]:focus, .contact-form button[type=submit].active {
+	color: #fff;
+	background-color: #d13b3b;
+	border-color: #d13b3b;
+}
+
+::selection {
+	background-color: #d95c5c;
+	color: #fff;
+}
+.widget-tagcloud  a:hover {
+	border-color: #d95c5c;
+}
+.widget-tagcloud  a.active {
+  background-color: #d95c5c;
+  border-color: #d95c5c;
+ }
+ .widget-tagcloud  a:hover:after, .comments-area .parent:before, .comments-area .reply a:hover:after, 
+ .page-comment-reply .reply a:hover:after, .btn-primary:hover:after {
+ 	background-color: #d95c5c;
+ }
+.post .entry-meta a:hover, .post-content .post-title a:hover, .post-content .comments-link a:hover,
+.comment-author a:hover, .comments-area .reply a, .page-comment-reply .reply a
+.comment-metadata a time:hover, .btn-primary {
+  color: #d95c5c;
+}
+.post-content .continue-reading a:hover, .type-post blockquote, .comments-area .reply a:hover, 
+.page-comment-reply .reply a:hover, .btn-primary:hover{
+	border-color: #d95c5c;
+}
+.pagination > li.active > a, .pagination > li > a:hover, .pagination > li.active > a:hover,
+.pagination > li.active > a:focus {
+  background: #d95c5c;
+}
+.topnav .navbar-nav > li > a, .team-inner p, #filters li a, .project-info span, .plan-heading p, .detail,
+footer .social-list a:hover {
+	color: #999999;
+}
+footer .social-list a:hover .social-icon {
+	border-color: #999999;
+}
+body {
+	color: #333333;
+}

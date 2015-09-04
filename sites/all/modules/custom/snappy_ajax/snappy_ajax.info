@@ -1,0 +1,8 @@
+name = Snappy ajax
+package = snappytheme
+description = Ajax load node
+
+version = "7.x-1.1"
+core = "7.x"
+project = "snappy_ajax"
+datestamp = "1406338351"
